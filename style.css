@@ -1,0 +1,46 @@
+.heading{
+    margin: 0px;
+    font-size: 23px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 5px grey;
+}
+.heading_div{
+    float: none;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Indie Flower', cursive;
+}
+.heading_div1{
+    font-size: 18px;
+}
+.object{
+    padding: 7px;
+    font-size: 16px;
+}
+#copyright{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: black;
+    background-color: white;
+    text-align: center;
+    line-height: 3;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 180px;
+}
+i{
+    visibility: hidden;
+    margin-top: 1px;
+  }
+  .heading_div1:hover i{
+    visibility: visible;
+  }
